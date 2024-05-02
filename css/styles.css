@@ -27,7 +27,7 @@ body {
     font-size: 25px;
 }
  .brand span {
-    color: aqua;
+    color: #0a8a8a;
     font-size: 40px;
  }
 
@@ -35,7 +35,7 @@ body {
    display: flex;
    width: 50%;
    justify-content: space-around;
-   font-size: 30px;
+   font-size: 20px;
  }
  .menu li{
     list-style: none;
@@ -48,11 +48,12 @@ body {
  }
 
 .menu .active{
-    color: aqua;
+    color: #0a8a8a;
+   
 }
 
 .menu a:hover{
-    background-color: aqua;
+    background-color: #0a8a8a;
     color: #252525;
     transition: ease-in .5s;
 }
@@ -65,17 +66,19 @@ body {
     grid-template-columns: repeat(2,1fr);
     align-items: center;
 }
-
 h1 {
     font-size: 3em;
 }
 span{
-    color: aqua;
+    color: #0a8a8a;
+}
+p{
+    font-size: 2em;
 }
 
 .download-cv{
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: #0a8a8a;
     border: none;
     border-radius: 20px ;
     margin-top: 10px;
@@ -89,7 +92,7 @@ span{
 }
 .main img{
     width: 350px;
-    border: 7px solid aqua;
+    border: 7px solid #0a8a8a;
     height: 520px;
 }
 .SobreMi{
@@ -114,13 +117,13 @@ span{
 .Division{
     height: 4px;
     width: 100px;
-    background-color: aqua;
+    background-color: #0a8a8a;
     margin-top: 5px;
     margin-bottom: 2em;
 }
 .SobreMi p{
     margin-bottom: 1em;
-    font-size: 20px;
+    font-size: 25px;
 }
 .portfolio {
     width: 100vw;
@@ -199,6 +202,12 @@ span{
     justify-content: center;
     margin-top: 1em;
 }
+.seccion_contacto{
+    display: inline-block; /* Ajusta el ancho al contenido */
+    padding: 60px 0;
+    position: relative;
+    top: -100px;
+}
 .formato_conatcto h4{
     font-size: 2em;
 }
@@ -239,7 +248,7 @@ span{
     margin: 1em;
     border: none;
     text-transform: uppercase;
-    background-color: aqua;
+    background-color: #00ffff;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 69);
@@ -276,4 +285,53 @@ span{
 }
 .Redes_sociales i{
     font-size: 1.5em;
+}
+/*seccion habilidades*/
+
+.habilidades{
+    /*background: linear-gradient(to rigth, #000c76,#007be5);*/
+    width: 100vw;
+    background-color: #fff;
+    color: black;
+    padding: 60px 0;
+    position: relative;
+    top: -100px;
+}
+.habilidades h2{
+    text-align: center;
+}
+.habilidades .contenedor_hab{
+    max-width: 1100px;
+    margin: auto;
+}
+.habilidades .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.score{
+    padding: 10px;
+    margin: auto;
+}
+.score .box{
+    width: 100%;
+}
+.score .box h2{
+    display: block;
+    text-align: center;
+}
+.score .box .chart{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    line-height: 160px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*graficos*/
+.score .box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
