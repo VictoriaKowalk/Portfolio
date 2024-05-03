@@ -203,8 +203,11 @@ p{
     margin-top: 1em;
 }
 .seccion_contacto{
-    display: inline-block; /* Ajusta el ancho al contenido */
-    padding: 60px 0;
+    display: center; 
+    background-color: #252525;
+    color: #fff;
+    padding:  0;
+    margin: 0;
     position: relative;
     top: -100px;
 }
@@ -222,8 +225,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-direction: column;
-    margin: 30em;
+    margin: 0 auto;
     width: 30vw;
     margin-top: 2em;
 }
@@ -259,6 +261,7 @@ p{
     box-shadow: none;
 }
 .footer{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -289,7 +292,6 @@ p{
 /*seccion habilidades*/
 
 .habilidades{
-    /*background: linear-gradient(to rigth, #000c76,#007be5);*/
     width: 100vw;
     background-color: #fff;
     color: black;
@@ -300,6 +302,7 @@ p{
 .habilidades h2{
     text-align: center;
 }
+
 .habilidades .contenedor_hab{
     max-width: 1100px;
     margin: auto;

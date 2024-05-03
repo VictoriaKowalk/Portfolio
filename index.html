@@ -20,17 +20,17 @@
                 <h2>V<span>K</span></h2>
             </div>
             <ul class="menu">
-                <li><a  class="active" href="#">Home</a></li>
-                <li><a href="#">Sobre mi</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Habilidades </a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a  class="active" href="#Inicio">Inicio</a></li>
+                <li><a href="#SobreMi">Sobre mi</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#habilidades">Habilidades </a></li>
+                <li><a href="#contacto">Contacto</a></li>
 
 
             </ul>
         </nav>
     </header>
-
+<section id="Inicio">
     <main class="main">
         <div class="info-content">
             <h1>Soy<span>Victoria</span>Kowalk </h1>
@@ -41,92 +41,96 @@
         </div>
         <img src="img\yo.png" alt="Victoria Kowalk">
     </main>
+</section>
 </div>
-
-<div class="SobreMi">
-    <img src="img\aboutMe.jpg" alt="VictoriaKowalkAbout">
-    <div class="SobreMi-info">
-        <h2>Sobre Mi</h2>
-        <div class="Division"></div>
-        <p>¡Hola! Soy una apasionada desarrolladora de software nacida en Argentina en 1987. 
-            Además de ser madre de dos hijos y estar casada, desde agosto de 2022 he estado inmersa en el emocionante mundo de 
-            la programación. Mi trayectoria previa incluye estudios en diseño web y una carrera como diseñadora y desarrolladora freelance, 
-            donde adquirí habilidades valiosas en áreas como el diseño gráfico y la gestión de comunidades. 
-            Con cada línea de código que escribo, busco combinar mi experiencia previa con mi pasión por la programación para crear 
-            soluciones innovadoras y visualmente impactantes.</p>
-        <button class="download-cv"> Leer más </button>    
+<section id="SobreMi">
+    <div class="SobreMi">
+        <img src="img\aboutMe.jpg" alt="VictoriaKowalkAbout">
+        <div class="SobreMi-info">
+            <h2>Sobre Mi</h2>
+            <div class="Division"></div>
+            <p>¡Hola! Soy una apasionada desarrolladora de software nacida en Argentina en 1987. 
+                Además de ser madre de dos hijos y estar casada, desde agosto de 2022 he estado inmersa en el emocionante mundo de 
+                la programación. Mi trayectoria previa incluye estudios en diseño web y una carrera como diseñadora y desarrolladora freelance, 
+                donde adquirí habilidades valiosas en áreas como el diseño gráfico y la gestión de comunidades. 
+                Con cada línea de código que escribo, busco combinar mi experiencia previa con mi pasión por la programación para crear 
+                soluciones innovadoras y visualmente impactantes.</p>
+            <button class="download-cv"> Leer más </button>    
+        </div>
     </div>
-</div>
+</section>
 
-<div class="portfolio">
-    <div class="portfolio-heading">
-        <h2> Mi Portfolio</h2>
-        <div class="Division"></div>
-    </div>
+<section id="Portfolio"> 
+    <div class="portfolio">
+        <div class="portfolio-heading">
+            <h2> Mi Portfolio</h2>
+            <div class="Division"></div>
+        </div>
 
-    <div class="contenedor">
+        <div class="contenedor">
+            <div class="card">
+                <div class="card_imagen">  
+            </div>
+            <div class="card_titulo">
+                <h2>Web Banchero Miami</h2>
+            </div>
+            <div class="link_proyectos">
+                <a href="https://www.bancheromiami.com/?lang=es" target="_blank">
+                    <i class="fa-solid fa-globe"></i>
+                </a>
+            </div>
+            <div class="detalle_de_proyectos_contenido">
+                <button class="detalle_de_proyectos download-cv">
+                    <a href="https://www.bancheromiami.com/?lang=es" target="_blank">
+                        Detalle de proyecto
+                    </a>
+                </button>
+            </div>
+        </div>
+
         <div class="card">
-            <div class="card_imagen">  
+            <div class="card_imagen2">  
         </div>
         <div class="card_titulo">
-            <h2>Web Banchero Miami</h2>
+            <h2>Tienda Avelino</h2>
         </div>
         <div class="link_proyectos">
-            <a href="https://www.bancheromiami.com/?lang=es" target="_blank">
+            <a href="https://www.avelinotienda.com.ar" target="_blank">
                 <i class="fa-solid fa-globe"></i>
             </a>
         </div>
         <div class="detalle_de_proyectos_contenido">
             <button class="detalle_de_proyectos download-cv">
-                <a href="https://www.bancheromiami.com/?lang=es" target="_blank">
+                <a href="https://www.avelinotienda.com.ar">
                     Detalle de proyecto
                 </a>
             </button>
         </div>
-    </div>
+        </div>
 
-
-    <div class="card">
-        <div class="card_imagen2">  
-    </div>
-    <div class="card_titulo">
-        <h2>Tienda Avelino</h2>
-    </div>
-    <div class="link_proyectos">
-        <a href="https://www.avelinotienda.com.ar" target="_blank">
-            <i class="fa-solid fa-globe"></i>
-        </a>
-    </div>
-    <div class="detalle_de_proyectos_contenido">
-        <button class="detalle_de_proyectos download-cv">
-            <a href="https://www.avelinotienda.com.ar">
-                Detalle de proyecto
+        <div class="card">
+            <div class="card_imagen3">  
+        </div>
+        <div class="card_titulo">
+            <h2>Black Jack c++/SFML</h2>
+        </div>
+        <div class="link_proyectos">
+            <a href="https://github.com/VictoriaKowalk/BlackJack-SFML" target="_blank">
+                <i class="fa-brands fa-github"></i>
             </a>
-        </button>
+        </div>
+        <div class="detalle_de_proyectos_contenido">
+            <button class="detalle_de_proyectos download-cv">
+                <a href="./img/INFORME BLACKJACK V2.pdf" target="_blank">
+                    Detalle de proyecto
+                </a>
+            </button>
+        </div>
+        </div>
+        </div>
     </div>
-</div>
+</section>
 
-
-<div class="card">
-    <div class="card_imagen3">  
-</div>
-<div class="card_titulo">
-    <h2>Black Jack c++/SFML</h2>
-</div>
-<div class="link_proyectos">
-    <a href="https://github.com/VictoriaKowalk/BlackJack-SFML" target="_blank">
-        <i class="fa-brands fa-github"></i>
-    </a>
-</div>
-<div class="detalle_de_proyectos_contenido">
-    <button class="detalle_de_proyectos download-cv">
-        <a href="./img/INFORME BLACKJACK V2.pdf" target="_blank">
-            Detalle de proyecto
-        </a>
-    </button>
-</div>
-</div>
-</div>
 
 <section id="habilidades" class="habilidades">
     <div class="contenedor_hab">
@@ -208,28 +212,28 @@
 
 <script src="app.js"></script>
 
-
-<div class="seccion_contacto">
-    <div class="contacto-headings">
-        <h2>Contacto</h2>
-        <div class="Division"></div>
-    </div>
-    
-    <div class="contenedor-contacto">
-        <div class="formato_conatcto">
-            <h4> Enviame un mensaje...</h4>
-            <form class="formulario">
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Email">
-                <textarea placeholder="Escribe tu mensaje aqui">
-                </textarea>
-                <button  class="btnsubmit">
-                    Enviar mensaje
-                </button>
-            </form>
+<section id="contacto">
+    <div class="seccion_contacto">
+        <div class="contacto-headings">
+            <h2>Contacto</h2>
+            <div class="Division"></div>
+        </div>
+        <div class="contenedor-contacto">
+            <div class="formato_conatcto">
+                <h4> Enviame un mensaje...</h4>
+                <form class="formulario">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Email">
+                    <textarea placeholder="Escribe tu mensaje aqui">
+                    </textarea>
+                    <button  class="btnsubmit">
+                        Enviar mensaje
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
-</div>
+</section>
 
 <footer class="footer">
     <div class="footer_contenedor">
@@ -241,8 +245,15 @@
             <i class="fa-brands fa-instagram" style="color: #000000;"></i>
         </a>
         <a href="https://www.linkedin.com/in/victoria-kowalk-45246516a/" target="_blank">
-            <i class="fa-brands fa-linkedin" style="color: #000000;"></i>    </div>
+            <i class="fa-brands fa-linkedin" style="color: #000000;"></i>    
         </a>
+        <a href="https://www.behance.net/victoriako6563" target="_blank">
+            <i class="fa-brands fa-square-behance" style="color: #000000;"></i>
+        </a>
+        <a href="https://github.com/VictoriaKowalk" target="_blank">
+            <i class="fa-brands fa-github" style="color: #000000;"></i>
+        </a>
+    </div>
 
 </footer>
 </body>
